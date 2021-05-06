@@ -34,6 +34,7 @@ In this repo you will find the following files and folders:
     ├── 3.smk
     ├── 4.smk
     ├── 5.smk
+    ├── make_phylo_tree.smk
     └── submit_to_cluster.sbatch
 
 ### explanation of files and directories
@@ -41,20 +42,23 @@ In this repo you will find the following files and folders:
     0.smk , 1.smk, 2.smk, etc...
 These are snakemake files that start simply and build up to the full desired pipeline.
 
+    make_phylo_tree.smk
+This snakemake file gets imported by the last step in the pipeline to make the phylogenetic tree.
+
     input  
 Contains the fasta files of the genomes, a csv file with the URLS for the query genes, and an hmm file which is used to make the species tree.
 
     envs
-Contains .yaml files for each of the conda environments installed by this pipeline
+Contains .yaml files for each of the conda environments installed by this pipeline.
 
     scripts
-Contains scripts that are run by the pipeline. Check out the R and python scripts to see how to reference snakemake variables inside one of your scripts
+Contains scripts that are run by the pipeline. Check out the R and python scripts to see how to reference snakemake variables inside one of your scripts.
 
     dag_diagrams
-Contains pdfs of the
+Contains diagrams of the directed acyclic graph that snakemake calculates with each workflow.
 
     cluster.yaml
-The Slurm resource requirements for rules in the final pipeline which is useful if submitting this workflow to a cluster
+The Slurm resource requirements for rules in the final pipeline which is useful if submitting this workflow to a cluster.
 
     submit_to_cluster.sbatch
 an example script for submitting the final workflow to a slurm cluster.
