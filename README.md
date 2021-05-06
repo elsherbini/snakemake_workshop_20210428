@@ -1,6 +1,6 @@
 ## Snakemake Workshop 28 April 2021
 
-[Directed Acyclic Graph](https://user-images.githubusercontent.com/2695357/117361202-baa31500-ae87-11eb-89b3-3e83976eb35d.png)
+![Directed Acyclic Graph](https://user-images.githubusercontent.com/2695357/117361202-baa31500-ae87-11eb-89b3-3e83976eb35d.png)
 
 In this example pipeline, you are looking for the presence and absence of a set of genes in a set of genomes. To start with as input you have the genomes as fasta files and a csv file with URLs for the different query genes.
 
