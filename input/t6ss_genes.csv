@@ -1,0 +1,16 @@
+hmm_accession,url,annotation
+PTHR36153,http://www.pantherdb.org/panther/exportHmm.jsp?acc=PTHR36153,IcmF-related protein
+PF09867,http://pfam.xfam.org/family/PF09867/hmm,T6S-associated protein TagF
+PF09850,http://pfam.xfam.org/family/PF09850/hmm,Type IV / VI secretion system DotU 
+PF05936,http://pfam.xfam.org/family/PF05936/hmm,Type VI secretion protein VC_A0114 
+PF12790,http://pfam.xfam.org/family/PF12790/hmm,Type VI secretion system lipoprotein SciN
+PF06812,http://pfam.xfam.org/family/PF06812/hmm,ImpA N-terminal
+PF16989,http://pfam.xfam.org/family/PF16989/hmm,Type VI secretion system-associated VCA0119
+PF05591,http://pfam.xfam.org/family/PF05591/hmm,Type VI secretion system VipA VC_A0107 or Hcp2
+PF05943,http://pfam.xfam.org/family/PF05943/hmm,Type VI secretion protein EvpB/VC_A0108 tail sheath
+PF05638,http://pfam.xfam.org/family/PF05638/hmm,Type VI secretion system effector Hcp
+PF07024,http://pfam.xfam.org/family/PF07024/hmm,Predicted virulence protein SciE type
+PTHR38595,http://www.pantherdb.org/panther/exportHmm.jsp?acc=PTHR38595,VC_A0109
+PF05947,http://pfam.xfam.org/family/PF05947/hmm,Type VI secretion system TssF-like
+PF06996,http://pfam.xfam.org/family/PF06996/hmm,Type VI secretion TssG-like
+PTHR32305,http://www.pantherdb.org/panther/exportHmm.jsp?acc=PTHR32305,VgrG protein
