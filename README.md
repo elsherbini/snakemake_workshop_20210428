@@ -1,5 +1,9 @@
 ## Snakemake Workshop 28 April 2021
 
+[Directed Acyclic Graph](https://user-images.githubusercontent.com/2695357/117361202-baa31500-ae87-11eb-89b3-3e83976eb35d.png)
+
+In this example pipeline, you are looking for the presence and absence of a set of genes in a set of genomes. To start with as input you have the genomes as fasta files and a csv file with URLs for the different query genes.
+
 In this repo you will find the following files and folders:
 
 
@@ -32,7 +36,7 @@ In this repo you will find the following files and folders:
     ├── 5.smk
     └── submit_to_cluster.sbatch
 
-### explanation of files directories
+### explanation of files and directories
 
     0.smk , 1.smk, 2.smk, etc...
 These are snakemake files that start simply and build up to the full desired pipeline.
@@ -45,6 +49,9 @@ Contains .yaml files for each of the conda environments installed by this pipeli
 
     scripts
 Contains scripts that are run by the pipeline. Check out the R and python scripts to see how to reference snakemake variables inside one of your scripts
+
+    dag_diagrams
+Contains pdfs of the
 
     cluster.yaml
 The Slurm resource requirements for rules in the final pipeline which is useful if submitting this workflow to a cluster
