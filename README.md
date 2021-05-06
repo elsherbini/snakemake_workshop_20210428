@@ -32,6 +32,7 @@ In this repo you will find the following files and folders:
     ├── 5.smk
     └── submit_to_cluster.sbatch
 
+### explanation of files directories
 
     0.smk , 1.smk, 2.smk, etc...
 These are snakemake files that start simply and build up to the full desired pipeline.
